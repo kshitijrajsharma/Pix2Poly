@@ -19,3 +19,5 @@ scratch
 !assets/pix2poly_overall_bg_white.png
 !assets/vertex_sequence_detector.png
 !assets/optimal_matching_network.png
+!website/static/images/*.png
+!website/static/css/*.txt
