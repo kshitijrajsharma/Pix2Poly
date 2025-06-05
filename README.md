@@ -7,7 +7,12 @@
 </div>
 
 
-[[Project Webpage]()]    [[Paper](https://arxiv.org/abs/2412.07899)]    [[Video]()]
+[[Project Webpage](https://yeshwanth95.github.io/Pix2Poly)]    [[Paper](https://arxiv.org/abs/2412.07899)]    [[Video]()]
+
+## UPDATES:
+
+1. 05.06.2025 - Pretrained checkpoints for Pix2Poly on the various datasets used in the paper are released. See [pretrained checkpoints](#pretrained-checkpoints).
+2. 21.05.2025 - As reported by the authors of the [$P^3$ dataset](https://arxiv.org/abs/2505.15379), Pix2Poly achieves state-of-the-art results for multimodal building vectorization from image and LiDAR data sources.
 
 ### Abstract:
 
@@ -60,6 +65,13 @@ dependencies:
 ## Datasets preparation
 
 See [datasets preprocessing](datasets) for instructions on preparing the various datasets for training/inference.
+
+## Pretrained Checkpoints
+
+Pretrained checkpoints for the various datasets used in the paper are available for download at the following links: [Google Drive](https://drive.google.com/file/d/1oEs2n81nMAzdY4G9bdrji13pOKk6MOET/view?usp=sharing) | [MEGA](https://mega.nz/file/ExQEBDxY#faK1yNaQ8KYvPGuxJY1snvFi7TfbF1kOx4mvhmUSb4s)
+
+Download the zip file, extract and place the individual runs folder in the `runs` directory at the root of the project.
+
 
 ## Configurations
 
