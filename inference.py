@@ -12,7 +12,7 @@ from albumentations.pytorch import ToTensorV2
 from config import CFG
 from models.model import Decoder, Encoder, EncoderDecoder
 from tokenizer import Tokenizer
-from utils import load_checkpoint, permutations_to_polygons, postprocess, test_generate
+from utils import permutations_to_polygons, postprocess, test_generate
 
 
 def main():
@@ -91,7 +91,7 @@ def main():
 
         # Process predictions
         vertex_coords, confs = postprocess(batch_preds, batch_confs, tokenizer)
-
+        print(f"Number of polygons detected: {len(vertex_coords)}")
         coords = []
         for i in range(len(vertex_coords)):
             if vertex_coords[i] is not None:
